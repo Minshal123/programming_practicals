@@ -46,5 +46,3 @@ def write_quote():
 
 
 # Solutions below:
-def test():
-    print(11)

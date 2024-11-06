@@ -1,8 +1,5 @@
 from graphix import Window, Point, Circle, Line, Rectangle, \
                     Polygon, Text, Entry
-import hello
-
-hello.hello_world()
 
 def hello_graphix():
     win = Window()
