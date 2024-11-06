@@ -20,6 +20,14 @@ def draw_stick_figure():
     right_leg = Line(Point(200, 240), Point(250, 290))
     right_leg.draw(win)
     win.get_mouse()
+    
+def draw_circle():
+    radius = int(input("Enter radius: "))
+    win = Window()
+    head = Circle(Point(200, 120), radius)
+    head.draw(win)
+    win.get_mouse()
+draw_circle()
 
 
 
