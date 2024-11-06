@@ -13,6 +13,14 @@ def draw_stick_figure():
     head.draw(win)
     body = Line(Point(200, 160), Point(200, 240))
     body.draw(win)
+    arms = Line(Point(150, 190), Point(250, 190))
+    arms.draw(win)
+    left_leg = Line(Point(200, 240), Point(150, 290))
+    left_leg.draw(win) 
+    right_leg = Line(Point(200, 240), Point(250, 290))
+    right_leg.draw(win)
+    win.get_mouse()
+
 
 
 def draw_line():
