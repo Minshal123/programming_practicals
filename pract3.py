@@ -20,14 +20,16 @@ def draw_stick_figure():
     right_leg = Line(Point(200, 240), Point(250, 290))
     right_leg.draw(win)
     win.get_mouse()
+
     
 def draw_circle():
     radius = int(input("Enter radius: "))
     win = Window()
     head = Circle(Point(200, 120), radius)
+    
     head.draw(win)
     win.get_mouse()
-draw_circle()
+
 
 
 
@@ -43,6 +45,16 @@ def draw_line():
     message.text = "click anywhere to quit"
     win.get_mouse()
     win.close()
+    
+
+def draw_circle():
+    win = Window()
+    radius = int(input("Enter radius: "))
+    head = Circle(Point(200, 120), radius)
+    head.outline_colour = "blue"
+    head.draw(win)
+    win.get_mouse()
+draw_circle()
 
 
 
