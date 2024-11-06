@@ -54,7 +54,7 @@ def draw_circle():
     head.outline_colour = "blue"
     head.draw(win)
     win.get_mouse()
-draw_circle()
+
 
 
 
